@@ -1,4 +1,141 @@
-# h1
-## h2
-### h3
-#### h4
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Morgan Swain</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/square.JPG" alt="" /></span>
+					<h1 id="logo"><a href="#">Matt Mangione</a></h1>
+					<p> <br>
+						B.S. in Mathematics <br>
+						Minor in Anthropology<br>
+						University of Vermont, Burlington, VT
+					</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Skills</a></li>
+						<li><a href="#three">Portfolio</a></li>
+						<!-- <li><a href="#four">More</a></li> -->
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+
+						<li><a href="https://github.com/morganswain13" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href=mailto:morganswain13@gmail.com class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="burlington.HEIC" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Morgan Swain</h2>
+										<p>A personal website, <a href="SwainResume.pdf">resume</a>, portfolio, etc. </p> 
+										<!-- I put together to demonstrate that I can copy and paste <b><i>the right</i></b> code. -->
+									</header>
+									<h4>Background</h4>
+									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. Currently, I am working as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, as well as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
+									</p>
+									<h4>Education</h4>
+									<p>I am currently in my final year at the University of Vermont with a bachelor of sciences in Mathematical Sciences. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technicinan at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data analysis. I am also minoring in Anthropology, which gives me the tools to think in abstract and creative ways. </p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Tricks I've Learned</h3>
+									<p>Technical skills I've developed through my education, personal interests, and prior work experience.</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code"><b>Data Analysis</b> <br>MATLAB, Python, R</li>
+										<li class="icon solid fa-cubes"><b>Software Development</b><br>Java, C / C++, Development tools</li>
+										<li class="icon solid fa-book"><b>Discrete Math</b><br>Graph Theory, Linear Algebra, Optimization</li>
+										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li> -->
+										<li class="icon solid fa-users"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>A Few Projects</h3>
+									<p> Below lies some coursework which emphasizes some of my interests and skills. Click for more information.</p>
+									<div class="features">
+										<article>
+											<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW2" class="image"><img src="images/gnr2bar.png" alt="" /></a>
+											<div class="inner">
+												<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW2"><h4>Rock & Roll and the Gabor Transform</h4></a>
+												<p>Analysis of popular Rock songs using the Gabor Transform, a time-specific sweep of the Fast Fourier Transform algorithm which locates the individual frequencies of the song in time.</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW4" class="image"><img src="images/vcols.png" alt="" /></a>
+											<div class="inner">
+												<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW4"><h4>Classifying MNIST digits using Linear Discriminant Analysis</h4></a>
+												<p>This project classifies the 10 digits of the MNIST dataset by finding the optimal basis which distinguishes each category. This is achieved using the singular value decomposition of the dataset.</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/mjmangione/CSE-455-COMPUTER-VISION-FINAL" class="image"><img src="images/birdclass.png" alt="" /></a>
+											<div class="inner">
+												<a href="https://github.com/mjmangione/CSE-455-COMPUTER-VISION-FINAL"><h4> Bird Classification using Transfer Learning</h4></a>
+												<p>With the goal of classifying 555 different species of birds using machine learning, this project imports large pre-trained convolutional neural network architectures, and then further trains them using our specific bird image dataset. </p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/mjmangione/AMATH-481-FINAL" class="image"><img src="images/sineBEC.jpg" alt="" /></a>
+											<div class="inner">
+												<a href="https://github.com/mjmangione/AMATH-481-FINAL"><h4>Bose-Einstein Condensate 3D Simulation</h4></a>
+												<p> In order to simulate the Bose-Einstein Condensate, an iterative numerical algorithm is used to approximate the Gross-Pitaevskii partial differenatil equation, a derivative of the Schrödinger equation.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Made by Matthew Mangione using a free HTML template found on the Internet.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
