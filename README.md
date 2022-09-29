@@ -11,8 +11,8 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/square.JPG" alt="" /></span>
-					<h1 id="logo"><a href="#">Matt Mangione</a></h1>
+					<span class="image avatar"><img src="golden hour.JPG" alt="" /></span>
+					<h1 id="logo"><a href="#">Morgan Swain</a></h1>
 					<p> <br>
 						B.S. in Mathematics <br>
 						Minor in Anthropology<br>
@@ -57,7 +57,7 @@
 									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. Currently, I am working as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, as well as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
 									</p>
 									<h4>Education</h4>
-									<p>I am currently in my final year at the University of Vermont with a bachelor of sciences in Mathematical Sciences. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technicinan at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data analysis. I am also minoring in Anthropology, which gives me the tools to think in abstract and creative ways. </p>
+									<p>I am currently in my final year at the University of Vermont, graduating with a bachelor of sciences in Mathematical Sciences in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technicinan at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data science. I am also minoring in Anthropology, which gives me the tools to think in abstract and creative ways. </p>
 								</div>
 							</section>
 
@@ -67,12 +67,12 @@
 									<h3>Tricks I've Learned</h3>
 									<p>Technical skills I've developed through my education, personal interests, and prior work experience.</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code"><b>Data Analysis</b> <br>MATLAB, Python, R</li>
-										<li class="icon solid fa-cubes"><b>Software Development</b><br>Java, C / C++, Development tools</li>
-										<li class="icon solid fa-book"><b>Discrete Math</b><br>Graph Theory, Linear Algebra, Optimization</li>
+										<li class="icon solid fa-code"><b>Data Analysis</b> <br>R, Python, MATLAB, LaTeX</li>
+										<li class="icon solid fa-user-crown"><b>Leadership</b><br>CEMS Peer Mentor, Networking Chair for the Women in STEM Club, Teaching Assistant for Anthropology 189</li>
+										<li class="icon solid fa-calculator-simple"><b>Discrete Math</b><br>Graph Theory, Linear Algebra, Combinatorics</li>
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
 										<li class="icon solid fa-bolt">Lightning bolt</li> -->
-										<li class="icon solid fa-users"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
+										<li class="icon solid fa-comment"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
 									</ul>
 								</div>
 							</section>
