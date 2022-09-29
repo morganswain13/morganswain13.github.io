@@ -1,0 +1,214 @@
+---
+title: "Effect of Physical Health and/or Employment on Mental Health"
+author: "Morgan Swain"
+date: "5/1/2022"
+output: html_document
+---
+
+```{r setup, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(dplyr)
+library(moderndive)
+library(magrittr)
+library(ggplot2)
+library(skimr)
+library(readxl)
+library(stringr)
+```
+
+## Introduction
+In March 2020, cases of the novel coronavirus (COVID-19) skyrocketed across the planet, thrusting much of the United States into long-term lockdowns. Over the next several months, employment, physical health, and mental health plummeted.
+I aim to analyze the relationship between these three variables – specifically, the impact of employment and physical health on mental health outcomes. 
+I directed my focus onto New England given our relationship to region as UVM students and New England natives.
+
+```{r files}
+ptsout <- read_excel("stat201_ptsout_proj.xls")
+sites_201 <- read_excel("stat201_sites_proj.xls")
+pts_diagnose <- read_excel("stat201_pts_proj.xls")
+```
+
+## Combining Data Sets
+
+```{r merge}
+pre_dataset_merged <- merge(ptsout,pts_diagnose)
+View(pre_dataset_merged)
+
+group2_pts<- merge(pre_dataset_merged, sites_201,
+                   by.x  = "site") 
+
+group2_pts <- group2_pts %>%
+  filter(region=="New England")
+
+View(group2_pts)
+```
+
+## Question 1 
+Is fatigue score (High/Low) independent of employment status (Full-time/Part-time/Unemployed) in New England?
+We know that the standardized average fatigue score is 50.
+
+```{r question1}
+# Creating new fatigue variable from standardized mean where above average is 'High' and below average is 'Low':
+group2_pts$fatiguelevel[group2_pts$fat_tscore>50]<-'High'
+group2_pts$fatiguelevel[group2_pts$fat_tscore<=50]<-'Low'
+
+# Creating new data frame where region is New England, and we're only looking at the three employment statuses in question:
+q2 <- group2_pts %>%
+  filter(region=='New England') %>%
+  filter(employ %in% c('Full-time', 'Part-time', 'Unemployed/Looking'))
+
+# Creating a simple contingency table:
+barcount <- table(q2$fatiguelevel, q2$employ)
+
+# Creating tacked barplot to visualize the observed data:
+barplot(barcount, main = "Employment Status vs. Fatigue",
+        xlab = "Employment Status",
+        ylab = "Count",
+        legend = TRUE,
+        las = 1,
+        args.legend = list(title="Fatigue Level"),
+        col = c("skyblue2", "lightgreen"),
+        border = "chocolate")
+
+# Now we do a chi-square test with the fatigue level variable:
+chisq.test(barcount)
+```
+
+From the chi-square test we find that p=0.3485, and thus we accept the null hypothesis that fatigue score is independent of employment status. We will visualize the results of the chi-square test below:
+
+```{r plot}
+# Contingency table showing results of chi-square test:
+standardcontingency <- q2 %>% select(employ, fatiguelevel)
+
+# Creating a mosaic plot to visualize the contingency table graphically:
+# Flipping contingency table (just so mosaic plot displays more nicely)
+mosaiccount <- table(q2$employ, q2$fatiguelevel)
+
+# Creating mosaic plot:
+mosaicplot(mosaiccount, main = "Employment Status vs. Fatigue",
+           xlab = "Employment Status",
+           ylab = "Fatigue Level",
+           las = 1,
+           color = c("lightgreen", "skyblue2"),
+           border = "chocolate")
+```
+
+## Question 2
+Is there a difference in anx_tscore and slp_tscore between time 1 and time 2 amongst New Englanders? 
+
+```{r question2}
+# Setting up the data for anx_tscores
+anx<-(data.frame(group2_pts$time, group2_pts$anx_tscore, group2_pts$id))
+
+anxx <- anx %>% 
+  filter(group2_pts.time == 1 | group2_pts.time ==2) %>%
+  filter(!is.na(group2_pts.anx_tscore))
+
+time1a<-filter(anxx, group2_pts.time==1)
+time2a<-filter(anxx, group2_pts.time==2)
+
+colnames(time2a)[colnames(time2a)=="group2_pts.time"]<-"time2"
+colnames(time2a)[colnames(time2a)=="group2_pts.anx_tscore"]<-"time2anx"
+
+anxtimes<-merge(time1a, time2a)
+
+# Running test
+t.test(anxtimes$time2anx, anxtimes$group2_pts.anx_tscore, paired=TRUE)
+
+# Setting up the data for slp_tscores
+slp<-(data.frame(group2_pts$time, group2_pts$slp_tscore, group2_pts$id))
+
+slpp <- slp %>% 
+  filter(group2_pts.time == 1 | group2_pts.time ==2) %>%
+  filter(!is.na(group2_pts.slp_tscore))
+
+time1s<-filter(slpp, group2_pts.time==1)
+time2s<-filter(slpp, group2_pts.time==2)
+
+colnames(time1s)[colnames(time2s)=="group2_pts.time"]<-"time2"
+colnames(time2s)[colnames(time2s)=="group2_pts.slp_tscore"]<-"time2slp"
+
+slptimes<-merge(time1s, time2s)
+
+#Running test
+t.test(slptimes$time2slp, slptimes$group2_pts.slp_tscore, paired=TRUE)
+```
+Since p is >.05 (.1288) we fail to reject the null hypothesis. We conclude that there is no significant difference between anx_tscore across time 1 and time 2. # Since p is >.05 (.789)  we fail to reject the null hypothesis. We conclude that there is no significant difference between anx_tscore across time 1 and time 2. We will show the results graphically below:
+```{r graphs}
+na.omit(anxx) %>%
+  ggplot(aes(x=group2_pts.anx_tscore)) +
+  geom_histogram() +
+  theme_bw() +
+  facet_wrap(~group2_pts.time) +
+  labs(title="Anxiety T-scores Across Time", x="Anxiety T-scores", y="Count")
+
+na.omit(slpp) %>%
+  ggplot(aes(x=group2_pts.slp_tscore)) +
+  geom_histogram() +
+  theme_bw() +
+  facet_wrap(~group2_pts.time)+ 
+  labs(title="Sleep T-scores Across Time", x="Sleep T-scores", y="Count")
+```
+
+We can see that both graphs look quite similar and have almost an identical distribution with only a few inconsistencies. Graphs support our findings by giving a visual representation showing that time 1 and 2 are not very different from one another. Statistical evidence (p-values) uphold that statement.
+
+## Question 3
+
+Does social isolation t-score change between drinkers and non-drinkers for people 40 years old or above?
+```{r question 3}
+datpartial<-pre_dataset_merged[,c("soc_tscore","age","alc_cat")]
+View(datpartial)
+
+datclean <- datpartial%>%
+  na.omit()
+
+drink<-datclean%>%
+  filter(alc_cat=="Drinker",age>=40)
+
+nodrink<-datclean%>%
+  filter(alc_cat=="Non-drinker",age>=40)
+
+View(nodrink)
+t.test(drink$soc_tscore,nodrink$soc_tscore)
+```
+There is evidence that social isolation t-score differs between drinkers and non-drinkers for people 40 years old or above (p=2.2e-16). The confidence interval is as follows: (2.899138,4.125691)
+```{r graphing}
+forty<-rbind(drink,nodrink)
+View(forty)
+fortyplot<-ggplot(forty,aes(x=alc_cat,y=soc_tscore, fill = alc_cat))+
+  geom_boxplot()+
+  labs(x="Alcohol Category", 
+       y="T-score",
+       title="Social Isolation T-scores for Drinkers and Non-Drinkers")
+fortyplot
+```
+
+The side-by-side boxplot above shows the distribution of social isolation t-scores between drinkers and non drinkers. Based on the P-value shown above which is arbitrarily close to zero, we can conclude that among those in New England, social isolation t-score does indeed change for those forty years old or above depending on whether they are drinkers or non-drinkers. It is not surprising that those who drink tend to be more socially isolated, but it is hard to say whether those who drink tend to be socially isolated or if those who are socially isolated tend to drink. This also lines up with the confidence interval as it doesn’t contain zero, meaning that the social isolation t-scores are different between drinking statuses at the alpha=.05 level.
+
+## Question 4
+
+Is there a relationship between physical function (DASI) and mental health status in New England?
+```{r question 4}
+plot(group2_pts$mhs_tscore ~ group2_pts$dasi)
+summary(lm(group2_pts$dasi~group2_pts$mhs_tscore))
+```
+There is evidence (p<2e-16) to state that there is a weak to moderate relationship (R-squared = 0.2603) between physical function (DASI) and mental health status.
+```{r plotting}
+na.omit(group2_pts)%>%
+  ggplot(aes(x=mhs_tscore,
+             y=dasi))+
+  geom_point(color="mediumpurple", 
+             fill="steelblue",
+             shape=1,
+             size=0.1) +
+  geom_smooth(method='lm', formula=y~x,
+              color="magenta")+
+  labs(x="Mental Health Status T-Score", 
+       y= "Physical Function Score (DASI)",
+       title="Linear Regression of Relationship Between 
+       Physical Function and Mental Health Status")
+```
+
+As we can see from the graph, there is a positive linear relationship between physical function (DASI) and mental health status. DASI measures physical function based off amount of physical exercise done by a person, including: walking indoors and outdoors, participating in sports, and having sexual relations. This means as a person increases their physical activity, their mental health will also increase.This is an important finding because it will help those struggling with mental health illnesses. By recommending an increase in physical activity, such as joining a recreational sports team, or going on a walk, they could improve their overall mental health status.
+
+As previously stated, understanding the impact these factors have on mental health is important in the face of economic, social, and health care difficulties. 
+It is important to acknowledge that correlation does not necessarily mean causation. Further research should be conducted to gain a better understanding of the impact that employment and physical health have on mental health.
