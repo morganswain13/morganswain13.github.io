@@ -10,7 +10,8 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="golden hour.JPG" alt="" /></span>
+					<span class="image avatar"><img src="headshot.png" alt="" /></span>
+					<span class="image avatar"><img src="burlington.HEIC" alt="" /></span>
 					<h1 id="logo"><a href="#">Morgan Swain</a></h1>
 					<p> <br>
 						B.S. in Mathematics <br>
@@ -103,13 +104,6 @@
 												<p>A blog written during my time as a Digital Marketing Intern in Spring of 2021 in honor of Women's History Month. Discusses the relationship between feminism and ecology, and leaves key takeaways for the reader. </p>
 											</div>
 										</article>
-										<article>
-											<a href="https://github.com/mjmangione/AMATH-481-FINAL" class="image"><img src="images/sineBEC.jpg" alt="" /></a>
-											<div class="inner">
-												<a href="https://github.com/mjmangione/AMATH-481-FINAL"><h4>Bose-Einstein Condensate 3D Simulation</h4></a>
-												<p> In order to simulate the Bose-Einstein Condensate, an iterative numerical algorithm is used to approximate the Gross-Pitaevskii partial differenatil equation, a derivative of the Schrödinger equation.</p>
-											</div>
-										</article>
 									</div>
 								</div>
 							</section>
@@ -137,4 +131,3 @@
 
 	</body>
 </html>
-
