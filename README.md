@@ -30,7 +30,6 @@
 					<ul class="icons">
 
 						<li><a href="https://github.com/morganswain13" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href=mailto:morganswain13@gmail.com class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
