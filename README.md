@@ -10,7 +10,6 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="headshot.png" alt="" /></span>
 					<span class="image avatar"><img src="burlington.HEIC" alt="" /></span>
 					<h1 id="logo"><a href="#">Morgan Swain</a></h1>
 					<p> <br>
@@ -45,7 +44,7 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="golden hour.jpeg" alt="" />
+									<img src="headshot.png" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
@@ -102,6 +101,13 @@
 											<div class="inner">
 												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Blog_%20Ecofeminism.pdf"><h4> EcoFeminism Blog for BYOTogo</h4></a>
 												<p>A blog written during my time as a Digital Marketing Intern in Spring of 2021 in honor of Women's History Month. Discusses the relationship between feminism and ecology, and leaves key takeaways for the reader. </p>
+											</div>
+										</article>
+										<article>
+											<a href="https://github.com/morganswain13/morganswain13.github.io/blob/ed7621cd8d51263c4addf7db6ae537469514b99e/It's%20Alive!%20Policy%20Brief%20Group%207.pdf" class="image"><img src="images/birdclass.png" alt="" /></a>
+											<div class="inner">
+												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/ed7621cd8d51263c4addf7db6ae537469514b99e/It's%20Alive!%20Policy%20Brief%20Group%207.pdf"><h4> UVM Climate Action Plan Project</h4></a>
+												<p>Collaborated with a team of 3 other students through a course at the University of Vermont, ENVS 141: Ecological Economics, to create a Climate Action Plan Policy Brief. This draft was created with the purpose of making the Climate Action Plan a living document for increased collaboration, accessibility, and education on environmental issues. </p>
 											</div>
 										</article>
 									</div>
