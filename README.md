@@ -86,6 +86,7 @@
 										<article>
 											<a href= "https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Burlington%20Tree%20Health%20Project.pdf" class="image"><img src="images/gnr2bar.png" alt="" /></a>
 											<div class="inner">
+												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Burlington%20Tree%20Health%20Project.pdf"><h4>Burlington Tree Health Project</h4></a>
 												<p>Collaborated with a team of 3 other students in a course titled Basics of Data Science to successfully clean and analyze tree health data from the Burlington City Arborists. Used R to create correlation plots and interactive maps to showcase tree health accross the city. </p>
 											</div>
 										</article>
@@ -119,7 +120,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Made by Matthew Mangione using a free HTML template found on the Internet.</li>
+								<li>&copy; Made by Morgan Swain using a free HTML template found on the Internet.</li>
 							</ul>
 						</div>
 					</section>
