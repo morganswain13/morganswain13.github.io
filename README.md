@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Morgan Swain</title>
@@ -68,8 +67,8 @@
 									<p>Technical skills I've developed through my education, personal interests, and prior work experience.</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code"><b>Data Analysis</b> <br>R, Python, MATLAB</li>
-										<li class="icon solid fa-user-crown"><b>Leadership</b><br>CEMS Peer Mentor, Networking Chair for the Women in STEM Club, Teaching Assistant for Anthropology 189</li>
-										<li class="icon solid fa-calculator-simple"><b>Discrete Math</b><br>Graph Theory, Linear Algebra, Combinatorics</li>
+										<li class="icon solid fa-user-crown"><b>Leadership</b><br>CEMS Peer Mentor, Networking Chair for the Women in STEM Club, Teaching Assistant for Anthropology 189: Aging in the Cross-Cultural Perspective</li>
+										<li class="icon solid fa-calculator-simple"><b>Discrete Math</b><br>Elementary Number Theory, Graph Theory, Linear Algebra, Combinatorics</li>
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
 										<li class="icon solid fa-bolt">Lightning bolt</li> -->
 										<li class="icon solid fa-comment"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
@@ -87,14 +86,14 @@
 											<a href= "https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Burlington%20Tree%20Health%20Project.pdf" class="image"><img src="images/gnr2bar.png" alt="" /></a>
 											<div class="inner">
 												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Burlington%20Tree%20Health%20Project.pdf"><h4>Burlington Tree Health Project</h4></a>
-												<p>Collaborated with a team of 3 other students in a course titled Basics of Data Science to successfully clean and analyze tree health data from the Burlington City Arborists. Used R to create correlation plots and interactive maps to showcase tree health accross the city. </p>
+												<p>Collaborated with a team of 3 other students through a course at the University of Vermont, Statistics 187: Basics of Data Science, to successfully clean and analyze tree health data from the Burlington City Arborists. Used R to create correlation plots and interactive maps to showcase tree health accross the city. </p>
 											</div>
 										</article>
 										<article>
 											<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Physical%20Health%20and%20Employment%20on%20Mental%20Health.Rmd" class="image"><img src="images/vcols.png" alt="" /></a>
 											<div class="inner">
 												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Physical%20Health%20and%20Employment%20on%20Mental%20Health.Rmd"><h4>Measuring Physical Health and Employment on Mental Health in New England</h4></a>
-												<p>Analyzed the relationship between employment and physical and mental health using data from ___. Answers questions: Is fatigue score independent of employment status in New England? Is there a difference in anx_tscore and slp_tscore between time 1 and time 2 amongst New Englanders? Does social isolation t-score change between drinkers and non-drinkers for people 40 years old or above? Is there a relationship between physical function (DASI) and mental health status in New England?</p>
+												<p>Analyzed the relationship between employment and physical and mental health using data from ___. Answers questions such as: Is fatigue score independent of employment status in New England? Does social isolation t-score change between drinkers and non-drinkers for people 40 years old or above? Is there a relationship between physical function and mental health status in New England?</p>
 											</div>
 										</article>
 										<article>
