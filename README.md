@@ -45,7 +45,7 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="burlington.HEIC" alt="" />
+									<img src="golden hour.jpeg" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
