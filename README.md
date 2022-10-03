@@ -91,17 +91,17 @@
 											</div>
 										</article>
 										<article>
-											<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW4" class="image"><img src="images/vcols.png" alt="" /></a>
+											<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Physical%20Health%20and%20Employment%20on%20Mental%20Health.Rmd" class="image"><img src="images/vcols.png" alt="" /></a>
 											<div class="inner">
-												<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW4"><h4>Classifying MNIST digits using Linear Discriminant Analysis</h4></a>
-												<p>This project classifies the 10 digits of the MNIST dataset by finding the optimal basis which distinguishes each category. This is achieved using the singular value decomposition of the dataset.</p>
+												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Physical%20Health%20and%20Employment%20on%20Mental%20Health.Rmd"><h4>Measuring Physical Health and Employment on Mental Health in New England</h4></a>
+												<p>Analyzed the relationship between employment and physical and mental health using data from ___. Answers questions: Is fatigue score independent of employment status in New England? Is there a difference in anx_tscore and slp_tscore between time 1 and time 2 amongst New Englanders? Does social isolation t-score change between drinkers and non-drinkers for people 40 years old or above? Is there a relationship between physical function (DASI) and mental health status in New England?</p>
 											</div>
 										</article>
 										<article>
-											<a href="https://github.com/mjmangione/CSE-455-COMPUTER-VISION-FINAL" class="image"><img src="images/birdclass.png" alt="" /></a>
+											<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Blog_%20Ecofeminism.pdf" class="image"><img src="images/birdclass.png" alt="" /></a>
 											<div class="inner">
-												<a href="https://github.com/mjmangione/CSE-455-COMPUTER-VISION-FINAL"><h4> Bird Classification using Transfer Learning</h4></a>
-												<p>With the goal of classifying 555 different species of birds using machine learning, this project imports large pre-trained convolutional neural network architectures, and then further trains them using our specific bird image dataset. </p>
+												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Blog_%20Ecofeminism.pdf"><h4> EcoFeminism Blog for BYOTogo</h4></a>
+												<p>A blog written during my time as a Digital Marketing Intern in Spring of 2021 in honor of Women's History Month. Discusses the relationship between feminism and ecology, and leaves key takeaways for the reader. </p>
 											</div>
 										</article>
 										<article>
