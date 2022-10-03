@@ -67,7 +67,7 @@
 									<h3>Tricks I've Learned</h3>
 									<p>Technical skills I've developed through my education, personal interests, and prior work experience.</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code"><b>Data Analysis</b> <br>R, Python, MATLAB, LaTeX</li>
+										<li class="icon solid fa-code"><b>Data Analysis</b> <br>R, Python, MATLAB</li>
 										<li class="icon solid fa-user-crown"><b>Leadership</b><br>CEMS Peer Mentor, Networking Chair for the Women in STEM Club, Teaching Assistant for Anthropology 189</li>
 										<li class="icon solid fa-calculator-simple"><b>Discrete Math</b><br>Graph Theory, Linear Algebra, Combinatorics</li>
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
@@ -86,8 +86,7 @@
 										<article>
 											<a href= "https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Burlington%20Tree%20Health%20Project.pdf" class="image"><img src="images/gnr2bar.png" alt="" /></a>
 											<div class="inner">
-												<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW2"><h4>Rock & Roll and the Gabor Transform</h4></a>
-												<p>Analysis of popular Rock songs using the Gabor Transform, a time-specific sweep of the Fast Fourier Transform algorithm which locates the individual frequencies of the song in time.</p>
+												<p>Collaborated with a team of 3 other students in a course titled Basics of Data Science to successfully clean and analyze tree health data from the Burlington City Arborists. Used R to create correlation plots and interactive maps to showcase tree health accross the city. </p>
 											</div>
 										</article>
 										<article>
