@@ -54,10 +54,10 @@
 										<!-- I put together to demonstrate that I can copy and paste <b><i>the right</i></b> code. -->
 									</header>
 									<h4>Background</h4>
-									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. Currently, I am working as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, as well as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
+									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. I am very passionate about environmental justice and preserving the Earth for future generations. Serving as the Networking Chair of the Women in STEM Club at UVM, I am also passionate about advocating for women's rights for equal pay and education in the Mathematics and Statistics fields. Currently, I am working as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, as well as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
 									</p>
 									<h4>Education</h4>
-									<p>I am currently in my final year at the University of Vermont, graduating with a bachelor of sciences in Mathematical Sciences in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technicinan at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data science. I am also minoring in Anthropology, which gives me the tools to think in abstract and creative ways. </p>
+									<p>I am currently in my final year at the University of Vermont, graduating with a bachelor of sciences in Mathematics in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technicinan at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data science. I am also minoring in Anthropology, which gives me the tools to think and communicate in abstract ways. </p>
 								</div>
 							</section>
 
@@ -84,7 +84,7 @@
 									<p> Below lies some coursework which emphasizes some of my interests and skills. Click for more information.</p>
 									<div class="features">
 										<article>
-											<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW2" class="image"><img src="images/gnr2bar.png" alt="" /></a>
+											<a href= "https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Burlington%20Tree%20Health%20Project.pdf" class="image"><img src="images/gnr2bar.png" alt="" /></a>
 											<div class="inner">
 												<a href="https://github.com/mjmangione/AMATH-482/tree/master/HW2"><h4>Rock & Roll and the Gabor Transform</h4></a>
 												<p>Analysis of popular Rock songs using the Gabor Transform, a time-specific sweep of the Fast Fourier Transform algorithm which locates the individual frequencies of the song in time.</p>
