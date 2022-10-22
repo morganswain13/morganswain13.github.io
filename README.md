@@ -10,7 +10,6 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="burlington.HEIC" alt="" /></span>
 					<h1 id="logo"><a href="#">Morgan Swain</a></h1>
 					<p> <br>
 						B.S. in Mathematics <br>
