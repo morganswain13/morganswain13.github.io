@@ -71,7 +71,7 @@
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
 										<li class="icon solid fa-bolt">Lightning bolt</li> -->
 										<li class="icon solid fa-comment"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
-										<li class="icon solid fa-comment"><b>Sustainability</b><br>Sustainable Orchard Management, Ecological Economics, Ecology of Place, and A Bug's Life</li>
+										<li class="icon solid fa-comment"><b>Sustainability Science Courses</b><br>Sustainable Orchard Management, Ecological Economics, Ecology of Place</li>
 									</ul>
 								</div>
 							</section>
