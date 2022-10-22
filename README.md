@@ -10,12 +10,6 @@
 		<!-- Header -->
 			<section id="header">
 				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">Portfolio</a></li>
-						<!-- <li><a href="#four">More</a></li> -->
-					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
@@ -36,14 +30,14 @@
 								<div class="image main" data-position="center">
 									<img src="profile photo.png" alt="" />
 								</div>
-								<p> <br>
+								<div class="container">
+									<header class="major">
+										<h2>Morgan Swain</h2>
+										<p> <br>
 						B.S. in Mathematics <br>
 						Minor in Anthropology<br>
 						University of Vermont, Burlington, VT
 					</p>
-								<div class="container">
-									<header class="major">
-										<h2>Morgan Swain</h2>
 										<p>A personal website, <a href="SwainResume.pdf">resume</a>, portfolio, etc. </p> 
 										<!-- I put together to demonstrate that I can copy and paste <b><i>the right</i></b> code. -->
 									</header>
