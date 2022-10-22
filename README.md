@@ -55,7 +55,7 @@
 									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. I am very passionate about environmental justice and preserving the Earth for future generations. Serving as the Networking Chair of the Women in STEM Club at UVM, I am also passionate about advocating for women's rights for equal pay and education in the Mathematics and Statistics fields. Currently, I am working as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, as well as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
 									</p>
 									<h4>Education</h4>
-									<p>I am currently in my final year at the University of Vermont, graduating with a bachelor of sciences in Mathematics in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technicinan at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data science. I am also minoring in Anthropology, which gives me the tools to think and communicate in abstract ways. </p>
+									<p>I am currently in my final year at the University of Vermont, graduating with a bachelor of sciences in Mathematics in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technician at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data science. I am also minoring in Anthropology, which gives me the tools to think and communicate in abstract ways. </p>
 								</div>
 							</section>
 
@@ -71,6 +71,7 @@
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
 										<li class="icon solid fa-bolt">Lightning bolt</li> -->
 										<li class="icon solid fa-comment"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
+										<li class="icon solid fa-comment"><b>Sustainability</b><br>Sustainable Orchard Management, Ecological Economics, Ecology of Place, and A Bug's Life</li>
 									</ul>
 								</div>
 							</section>
@@ -92,7 +93,14 @@
 											<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Physical%20Health%20and%20Employment%20on%20Mental%20Health.Rmd" class="image"><img src="images/vcols.png" alt="" /></a>
 											<div class="inner">
 												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/95adeb96218298b75726651af6e6cf3debd529c8/Physical%20Health%20and%20Employment%20on%20Mental%20Health.Rmd"><h4>Measuring Physical Health and Employment on Mental Health in New England</h4></a>
-												<p>Analyzed the relationship between employment and physical and mental health using data from ___. Answers questions such as: Is fatigue score independent of employment status in New England? Does social isolation t-score change between drinkers and non-drinkers for people 40 years old or above? Is there a relationship between physical function and mental health status in New England?</p>
+												<p>Analyzed the relationship between employment and physical and mental health. Answers questions such as: Is fatigue score independent of employment status in New England? Does social isolation t-score change between drinkers and non-drinkers for people 40 years old or above? Is there a relationship between physical function and mental health status in New England?</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://us19.campaign-archive.com/?e=__test_email__&u=eb66466dfd2fabcf928f34064&id=f23d188f28" class="image"><img src="images/vcols.png" alt="" /></a>
+											<div class="inner">
+												<a href="https://us19.campaign-archive.com/?e=__test_email__&u=eb66466dfd2fabcf928f34064&id=f23d188f28"><h4>CSA Newsletter for Sustainable Orchard Management</h4></a>
+												<p>Collaborated with two of my close friends to package apples for about 60 shareholders at the UVM Catamount Farm for a community supported agriculture (CSA) model. We then wrote a newsletter for each of the shareholders to recieve information on the apple cultivars they were eating and some background about us as students.</p>
 											</div>
 										</article>
 										<article>
