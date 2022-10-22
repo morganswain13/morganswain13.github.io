@@ -9,14 +9,6 @@
 
 		<!-- Header -->
 			<section id="header">
-				<header>
-					<h1 id="logo"><a href="#">Morgan Swain</a></h1>
-					<p> <br>
-						B.S. in Mathematics <br>
-						Minor in Anthropology<br>
-						University of Vermont, Burlington, VT
-					</p>
-				</header>
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
@@ -44,6 +36,11 @@
 								<div class="image main" data-position="center">
 									<img src="profile photo.png" alt="" />
 								</div>
+								<p> <br>
+						B.S. in Mathematics <br>
+						Minor in Anthropology<br>
+						University of Vermont, Burlington, VT
+					</p>
 								<div class="container">
 									<header class="major">
 										<h2>Morgan Swain</h2>
