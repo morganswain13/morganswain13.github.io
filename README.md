@@ -42,7 +42,7 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="headshot.png" alt="" />
+									<img src="profile photo.png" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
