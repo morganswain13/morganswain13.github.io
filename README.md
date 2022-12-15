@@ -87,7 +87,6 @@
 											</div>
 										</article>
 										<article>
-											<a href=(https://github.com/morganswain13/morganswain13.github.io/blob/a5340797f930564869af6f82b61579256366c879/FEMC%20Final%20Portfolio.pdf) class="image"><img src="images/vcols.png" alt="" /></a>
 											<div class="inner">
 												<a href="https://github.com/morganswain13/morganswain13.github.io/blob/a5340797f930564869af6f82b61579256366c879/FEMC%20Final%20Portfolio.pdf"><h4>Final Portfolio for FEMC Internship</h4></a>
 												<p>This portfolio, completed in December of 2022, encompasses the diverse projects, skills, and tasks I accomplished as an intern at the Forest Ecosystem Monitoring Cooperative. Links are provided within the document to easily access materials.</p>
