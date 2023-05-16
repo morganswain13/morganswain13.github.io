@@ -42,10 +42,12 @@
 										<!-- I put together to demonstrate that I can copy and paste <b><i>the right</i></b> code. -->
 									</header>
 									<h4>Background</h4>
-									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. I am very passionate about environmental justice and preserving the Earth for future generations. Serving as the Networking Chair of the Women in STEM Club at UVM, I am also passionate about advocating for women's rights for equal pay and education in the Mathematics and Statistics fields. Currently, I am working as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, as well as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
+									<p> Coming from 40 minutes north of Boston, a town called Andover, Massachusetts, I came up to Vermont to experience the variety of outdoor activities and beautiful views it has to offer. I am very passionate about environmental justice and preserving the Earth for future generations. I am currently searching for jobs as an educator of mathematics in order to create a brighter future for our youth. My past experience as a Peer Mentor for the College of Engineering and Mathematical Sciences at UVM as well as tutoring at the Sylvan Learning Center have given me the skills to lead a classroom and make meaningful connections with students. Promoting the social, emotional and academic development of each child is crucial to my education style. I am passionate about making math fun and exciting for students and I believe real-world application of mathematical concepts in the solution of practical problems is essential for learning. One example of this was demonstrated in an environmental studies course titled Birding to Change the World taken in the spring of 2023, where UVM students partnered with one elementary student to bird, explore nature, and teach the importance of conservation. We emphasized using nature as our classroom and outdoor structures as examples of math, science, and other topics learned in the classroom. 
+Serving as the former Networking Chair of the Women in STEM Club at UVM, advocating for women's rights for equal pay and education in the Mathematics and Statistics fields is one of my main goals as a future educator. I believe in equal opportunities for every student by differentiating class materials, individualized learning, and meeting students at their level of knowledge. 
+In the past, I have worked as a Data Technician Intern for the Forest Ecosystem Monitoring Cooperative in South Burlington, where I gained technical skills and environmental knowledge. Outside of work and school, I enjoy spending time with animals, rollerblading on the bike path, and swimming in the lake.  
 									</p>
 									<h4>Education</h4>
-									<p>I am currently in my final year at the University of Vermont, graduating with a bachelor of sciences in Mathematics in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. In my current job as a Data Technician at a small scale environmental cooperative, I am aiming to align my interests in sustainability with data science. I am also minoring in Anthropology, which gives me the tools to think and communicate in abstract ways. </p>
+									<p>I have just completed my final year at the University of Vermont, graduating with a Bachelor of Science in Mathematics in May 2023. This degree encompasses my interests in applied and theoretical computer science, data analysis, and pure and applied mathematics. With my minor in Anthropology, I have obtained knowledge about a variety of cultures and ideologies and have also gained the personal tools to think and communicate in abstract ways. </p>
 								</div>
 							</section>
 
@@ -55,13 +57,13 @@
 									<h3>Tricks I've Learned</h3>
 									<p>Technical skills I've developed through my education, personal interests, and prior work experience.</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code"><b>Data Analysis</b> <br>R, Python, MATLAB</li>
-										<li class="icon solid fa-user-crown"><b>Leadership</b><br>CEMS Peer Mentor, Networking Chair for the Women in STEM Club, Teaching Assistant for Anthropology 189: Aging in the Cross-Cultural Perspective</li>
-										<li class="icon solid fa-calculator-simple"><b>Discrete Math</b><br>Elementary Number Theory, Graph Theory, Linear Algebra, Combinatorics</li>
+										<li class="icon solid fa-code"><b>Data Analysis</b> <br>R, SAS, Python, MATLAB</li>
+										<li class="icon solid fa-user-crown"><b>Leadership</b><br>Birding Mentor, CEMS Peer Mentor, Networking Chair for the Women in STEM Club, Teaching Assistant for Anthropology 189: Aging in the Cross-Cultural Perspective</li>
+										<li class="icon solid fa-calculator-simple"><b>Discrete Math</b><br>Cryptography, Elementary Number Theory, Graph Theory, Linear Algebra, Combinatorics</li>
 										<!-- <li class="icon solid fa-coffee">Drink much coffee</li>
 										<li class="icon solid fa-bolt">Lightning bolt</li> -->
 										<li class="icon solid fa-comment"><b>Technical Communication</b><br>Able to translate abstract ideas into English </li>
-										<li class="icon solid fa-comment"><b>Sustainability Science Courses</b><br>Sustainable Orchard Management, Ecological Economics, Ecology of Place</li>
+										<li class="icon solid fa-comment"><b>Sustainability Science Courses</b><br>Agricultural Policy and Ethics, Sustainable Orchard Management, Ecological Economics, Ecology of Place</li>
 									</ul>
 								</div>
 							</section>
